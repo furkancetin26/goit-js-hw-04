@@ -3,11 +3,11 @@ function calcAverageCalories(days){
     for (const day of days) {
         total += day.calories;
     }
-    if(days.length == 0){
+    if(days.length === 0){
         return 0;
     }
     else 
-    return ortalama = total / days.length;
+    return total / days.length;
     
 }
 
